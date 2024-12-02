@@ -186,6 +186,8 @@
     <p>Email: <a href="mailto:precicom3d@gmail.com">precicom3d@gmail.com</a></p>
     <p>Phone: +91 8190911366</p>
     <p>Location: <a href="https://www.google.com/maps?q=Chennai, India" target="_blank">Chennai, India</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/precicom3d/"_blank">Visit Us</a></p>
+
 </section>
 
 <div class="contact-info">
