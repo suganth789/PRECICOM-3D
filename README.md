@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -186,15 +185,18 @@
     <p>Email: <a href="mailto:precicom3d@gmail.com">precicom3d@gmail.com</a></p>
     <p>Phone: +91 8190911366</p>
     <p>Location: <a href="https://www.google.com/maps?q=Chennai, India" target="_blank">Chennai, India</a></p>
-    <p>Instagram: <a href="https://www.instagram.com/precicom3d/"target="_blank">Visit Us</a></p>
-
+    <p><strong>Follow Us:</strong> <a href="https://www.instagram.com/precicom3d/" target="_blank">Instagram</a></p>
 </section>
 
-<div class="contact-info">
-    <a href="mailto:precicom3d@gmail.com">Get In Touch</a>
-</div>
+<section class="contact-info">
+    <p><strong>Precicom 3D</strong></p>
+    <p>Your trusted partner for 3D printing solutions</p>
+    <p>Contact us for all your 3D printing needs.</p>
+</section>
 
-<p class="tech-quote">"The future is printed." - 3D Printing Innovation</p>
+<section class="tech-quote">
+    <p>"The best way to predict the future is to create it." – Abraham Lincoln</p>
+</section>
 
 </body>
 </html>
