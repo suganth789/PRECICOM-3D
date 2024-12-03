@@ -49,9 +49,9 @@
             margin-top: 30px;
         }
         .service img {
-            width: 220px;
-            height: 220px;
-            object-fit: cover;
+            width: 250px; /* Set the width */
+            height: 250px; /* Set the height */
+            object-fit: cover; /* Ensure the image fills the container without distortion */
             border-radius: 10px;
             transition: transform 0.3s ease;
             border: 3px solid #eef3f8;
@@ -196,10 +196,12 @@
     <p>Contact us: <a href="mailto:precicom3d@gmail.com">precicom3d@gmail.com</a></p>
 </section>
 
+<section class="tech-quote">
+    <p>"3D printing is the future of manufacturing, unlocking new possibilities in design, production, and sustainability."</p>
+</section>
+
 <section class="slogan">
-    <p>"Creating Tomorrow, Today"</p>
-    <p>"Your Vision, Our Precision"</p>
-    <p>"Shaping the Future Layer by Layer"</p>
+    <p>Transforming Ideas into Reality with Precision and Innovation</p>
 </section>
 
 </body>
