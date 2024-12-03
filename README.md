@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precicom 3D Printing Services Catalogue</title>
+    <title>Precicom 3D Printing Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -29,46 +29,36 @@
             font-weight: 700;
             margin-bottom: 5px;
         }
+        .slogan {
+            font-size: 18px;
+            font-style: italic;
+            margin-top: 10px;
+        }
         section {
             padding: 20px;
         }
-        .content-box {
+        .intro, .quality, .reliability, .benefits, .contact-info {
             background: rgba(0, 0, 0, 0.7);
             padding: 20px;
             border-radius: 15px;
             margin-bottom: 20px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
-        .service {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .service img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
-        }
-        .service img:hover {
-            transform: scale(1.05);
-        }
-        .service-details {
-            flex-grow: 1;
-            margin-left: 20px;
-        }
-        .service-details h3 {
+        h2 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 22px;
+            font-size: 28px;
             font-weight: 700;
             color: #ff9800;
+            margin-bottom: 15px;
         }
-        .pricing {
-            font-weight: bold;
-            color: #00e676;
+        p {
             font-size: 16px;
+        }
+        .slogan-section {
+            font-size: 18px;
+            color: #00e676;
+            text-align: center;
+            margin: 20px 0;
         }
         .contact-info {
             text-align: center;
@@ -91,25 +81,10 @@
         .contact-info a:hover {
             background-color: #ff5722;
         }
-        .tech-quote {
-            font-family: 'Poppins', sans-serif;
-            font-size: 16px;
-            font-style: italic;
-            color: #cfd8dc;
-            margin-top: 30px;
-            text-align: center;
-        }
         @media (max-width: 768px) {
             .service {
                 flex-direction: column;
                 text-align: center;
-            }
-            .service img {
-                width: 70%;
-                margin-bottom: 20px;
-            }
-            .service-details {
-                margin-left: 0;
             }
         }
     </style>
@@ -119,59 +94,58 @@
 <header>
     <h1>Precicom 3D</h1>
     <p>Your Trusted 3D Printing Partner</p>
+    <div class="slogan">"Shaping the Future, One Layer at a Time"</div>
 </header>
 
-<section class="content-box">
+<section class="intro">
     <h2>About Us</h2>
-    <p>Precicom 3D, based in Chennai, is a trailblazer in 3D printing services, offering cutting-edge solutions using FDM, SLA, and SLS technologies. With a focus on innovation, precision, and customer satisfaction, we cater to industries such as automotive, healthcare, consumer goods, and aerospace. Our team of experts ensures each project meets exacting standards, empowering businesses with rapid prototyping and functional parts production. By leveraging the latest technologies and materials, we transform ideas into tangible realities, supporting clients every step of the way in their product development journey.</p>
+    <p>At Precicom 3D, we redefine possibilities with state-of-the-art 3D printing solutions. Headquartered in Chennai, our mission is to bring your ideas to life through precision, innovation, and reliability.</p>
+    <p>We specialize in FDM, SLA, and SLS technologies, offering services tailored to industries like automotive, healthcare, architecture, and consumer goods. With a focus on quality and customization, we ensure every project aligns with our clients' needs.</p>
+    <div class="slogan-section">"Innovation Meets Precision at Precicom 3D"</div>
 </section>
 
-<section class="content-box">
+<section class="quality">
     <h2>Quality Aspects</h2>
-    <p>At Precicom 3D, quality is at the forefront of our operations. We adhere to strict protocols and international standards to ensure dimensional accuracy, surface finish, and structural integrity. Our state-of-the-art equipment undergoes regular calibration, and every product is subjected to rigorous quality checks. From material selection to final inspection, we leave no stone unturned in delivering superior outputs that exceed expectations.</p>
+    <p>Quality is at the heart of everything we do. Our processes are designed to ensure precision, durability, and exceptional finish in every product. We utilize high-quality materials and cutting-edge machinery to achieve dimensional accuracy and robust performance.</p>
+    <p>Each project undergoes rigorous inspection, ensuring compliance with industry standards and exceeding customer expectations. From prototypes to end-use parts, Precicom 3D is your partner for unparalleled quality.</p>
+    <div class="slogan-section">"Where Every Detail Matters"</div>
 </section>
 
-<section class="content-box">
+<section class="reliability">
     <h2>Reliability Aspects</h2>
-    <p>Reliability is a cornerstone of our service. We provide consistent and repeatable results, ensuring that each batch meets client specifications. Our use of advanced software for design and simulation minimizes errors, while our experienced team proactively addresses potential challenges. We are committed to meeting deadlines, offering reliable turnaround times without compromising on quality.</p>
+    <p>Our reliability stems from years of experience and a customer-centric approach. We prioritize timely delivery, robust solutions, and transparent communication. Every project is managed with utmost care, ensuring consistency and dependability in all aspects of service.</p>
+    <p>Our advanced systems and skilled workforce guarantee reliable performance, whether it's a one-off prototype or a full-scale production run. Trust Precicom 3D for dependable results every time.</p>
+    <div class="slogan-section">"Delivering Trust, Layer by Layer"</div>
 </section>
 
-<section>
-    <h2>Our Services</h2>
+<section class="benefits">
+    <h2>Benefits of Our Technologies</h2>
     <div class="service">
         <div class="service-details">
             <h3>FDM Printing</h3>
-            <p>FDM (Fused Deposition Modeling) uses thermoplastic filaments to create durable parts layer by layer. It is ideal for rapid prototyping, functional testing, and low-cost manufacturing. Benefits include affordability, material versatility, and ease of customization.</p>
-            <p class="pricing">Pricing: ₹15/cc (PLA), ₹25/cc (ABS)</p>
+            <p><strong>Benefits:</strong> Affordable, fast, and versatile. Ideal for creating durable prototypes and functional parts. Suitable for a variety of materials, including PLA and ABS, for applications in education, prototyping, and manufacturing.</p>
         </div>
-        <img src="https://www.bhphotovideo.com/images/images750x750/creality_ender_3v2_ender_3_v2_fdm_3d_1705448.jpg" alt="FDM Printer">
+        <div class="slogan-section">"Affordable Innovation in Every Design"</div>
     </div>
-
     <div class="service">
         <div class="service-details">
             <h3>SLA Printing</h3>
-            <p>SLA (Stereolithography) offers unmatched precision and smooth surface finishes. It is best suited for intricate designs and prototypes requiring fine detail and aesthetic appeal. Benefits include exceptional accuracy, smooth finishes, and material versatility.</p>
-            <p class="pricing">Pricing: ₹50/cc</p>
+            <p><strong>Benefits:</strong> High precision, smooth surfaces, and intricate detailing. Best for aesthetic models, dental tools, and small-scale manufacturing requiring fine accuracy.</p>
         </div>
-        <img src="https://images.squarespace-cdn.com/content/v1/5b6e3beb85ede1a17e4a6830/1566499392899-64UXSZUPIVSBBIDE6EYS/form-2-printer-three-quarters-hart1.jpg" alt="SLA Printer">
+        <div class="slogan-section">"Precision and Elegance in Every Curve"</div>
     </div>
-
     <div class="service">
         <div class="service-details">
             <h3>SLS Printing</h3>
-            <p>SLS (Selective Laser Sintering) creates robust, high-performance parts with excellent mechanical properties. It is ideal for industrial applications requiring strength and durability. Benefits include strength, high complexity, and no need for support structures.</p>
-            <p class="pricing">Pricing: ₹65/cc</p>
+            <p><strong>Benefits:</strong> High-strength, complex geometries without support structures. Perfect for industrial-grade prototypes and end-use components in demanding applications.</p>
         </div>
-        <img src="https://3dprint.com/wp-content/uploads/2017/10/1463590945-HP-HPQ-Launches-Multi-Jet-Fusion-3D-Printers.jpg" alt="SLS Printer">
+        <div class="slogan-section">"Strength in Complexity"</div>
     </div>
 </section>
 
 <section class="contact-info">
     <p>Contact us: <a href="mailto:precicom3d@gmail.com">precicom3d@gmail.com</a></p>
-</section>
-
-<section class="tech-quote">
-    <p>"The best way to predict the future is to create it." – Abraham Lincoln</p>
+    <p>Call us: +91 8190911366</p>
 </section>
 
 </body>
