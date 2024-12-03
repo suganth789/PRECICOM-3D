@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,18 +9,18 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #ff5722, #2196f3, #4caf50);
-            color: #f5f5f5;
+            background: linear-gradient(to bottom, #f5f5f5, #ffffff);
+            color: #333;
             line-height: 1.6;
         }
         header {
-            background: linear-gradient(135deg, #673ab7, #2196f3);
+            background: linear-gradient(135deg, #673ab7, #3f51b5);
             color: #fff;
             text-align: center;
             padding: 30px;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
         h1 {
             font-family: 'Montserrat', sans-serif;
@@ -33,11 +32,11 @@
             padding: 20px;
         }
         .content-box {
-            background: rgba(0, 0, 0, 0.7);
+            background: #ffffff;
             padding: 20px;
             border-radius: 15px;
             margin-bottom: 20px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
         .service {
             display: flex;
@@ -63,16 +62,16 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 22px;
             font-weight: 700;
-            color: #ff9800;
+            color: #673ab7;
         }
         .pricing {
             font-weight: bold;
-            color: #00e676;
+            color: #4caf50;
             font-size: 16px;
         }
         .contact-info {
             text-align: center;
-            background: linear-gradient(135deg, #00bcd4, #ff9800);
+            background: linear-gradient(135deg, #3f51b5, #ff9800);
             color: #fff;
             padding: 10px;
             margin-top: 20px;
@@ -95,9 +94,17 @@
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
             font-style: italic;
-            color: #cfd8dc;
+            color: #555;
             margin-top: 30px;
             text-align: center;
+        }
+        .slogan {
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 30px;
+            color: #3f51b5;
         }
         @media (max-width: 768px) {
             .service {
@@ -170,8 +177,10 @@
     <p>Contact us: <a href="mailto:precicom3d@gmail.com">precicom3d@gmail.com</a></p>
 </section>
 
-<section class="tech-quote">
-    <p>"The best way to predict the future is to create it." – Abraham Lincoln</p>
+<section class="slogan">
+    <p>"Innovating Your Ideas, Printing Your Dreams"</p>
+    <p>"Empowering Creativity with Precision and Quality"</p>
+    <p>"Building the Future, Layer by Layer"</p>
 </section>
 
 </body>
