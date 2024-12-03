@@ -1,125 +1,110 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Precicom 3D Printing Services Catalogue</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #eef3f8, #ffffff);
-            color: #333;
+            background-color: #2c2c2c;
+            color: #e0e0e0;
             line-height: 1.6;
         }
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
         header {
-            background: linear-gradient(to right, #8e44ad, #6dd5fa, #ffffff);
+            background: linear-gradient(135deg, #0066cc, #00b8d4);
             color: #fff;
             text-align: center;
-            padding: 40px 20px;
-            border-bottom: 3px solid #8e44ad;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
         h1 {
-            font-family: 'Montserrat', sans-serif;
             font-size: 36px;
-            font-weight: 700;
-            margin: 10px 0;
+            font-weight: bold;
+            margin-bottom: 5px;
         }
-        p.subtitle {
-            font-size: 18px;
-            color: #f0f8ff;
+        p {
+            font-size: 14px;
         }
         section {
-            padding: 40px 20px;
+            padding: 20px;
         }
-        .content-box {
-            background: #fdfdfe;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            border: 1px solid #e0e0e0;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        .intro, .service, .vision {
+            background: #333;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
         .service {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 30px;
+            margin-top: 20px;
+            border-radius: 10px;
         }
         .service img {
-            width: 250px; /* Set the width */
-            height: 250px; /* Set the height */
-            object-fit: cover; /* Ensure the image fills the container without distortion */
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
             border-radius: 10px;
             transition: transform 0.3s ease;
-            border: 3px solid #eef3f8;
         }
         .service img:hover {
-            transform: scale(1.08);
-            border-color: #8e44ad;
+            transform: scale(1.05);
         }
         .service-details {
             flex-grow: 1;
             margin-left: 20px;
         }
         .service-details h3 {
-            font-family: 'Montserrat', sans-serif;
             font-size: 22px;
-            font-weight: 700;
-            color: #8e44ad;
+            font-weight: bold;
+            color: #00b8d4;
+        }
+        .service-details p {
+            font-size: 14px;
         }
         .pricing {
             font-weight: bold;
-            color: #27ae60;
+            color: #00e676;
             font-size: 16px;
         }
         .contact-info {
             text-align: center;
-            background: linear-gradient(90deg, #6dd5fa, #ffffff);
-            color: #333;
-            padding: 15px;
-            margin-top: 30px;
+            background: linear-gradient(135deg, #0066cc, #00b8d4);
+            color: #fff;
+            padding: 10px;
+            margin-top: 20px;
             border-radius: 15px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
         }
         .contact-info a {
-            color: #8e44ad;
+            color: #fff;
             text-decoration: none;
             font-weight: bold;
-            font-size: 16px;
-            border: 2px solid #8e44ad;
-            padding: 8px 20px;
+            font-size: 14px;
+            border: 2px solid #fff;
+            padding: 5px 15px;
             border-radius: 5px;
-            transition: background-color 0.3s ease, color 0.3s ease;
+            transition: background-color 0.3s ease;
         }
         .contact-info a:hover {
-            background-color: #8e44ad;
-            color: #fff;
+            background-color: #00b8d4;
         }
         .tech-quote {
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
+            font-size: 16px;
             font-style: italic;
-            color: #555;
+            color: #b0b0b0;
             margin-top: 30px;
             text-align: center;
-        }
-        .slogan {
-            text-align: center;
-            font-size: 18px;
-            font-weight: 600;
-            margin-top: 40px;
-            color: #8e44ad;
-            background: #f7faff;
-            padding: 20px;
-            border-top: 2px solid #8e44ad;
-        }
-        hr {
-            border: 0;
-            border-top: 1px dashed #ddd;
-            margin: 30px 0;
         }
         @media (max-width: 768px) {
             .service {
@@ -127,7 +112,7 @@
                 text-align: center;
             }
             .service img {
-                width: 80%;
+                width: 70%;
                 margin-bottom: 20px;
             }
             .service-details {
@@ -139,35 +124,27 @@
 <body>
 
 <header>
+    <a href="https://www.precicom3d.com" target="_blank">
+        <img src="" alt="Precicom 3D Logo" style="max-width: 150px; margin-bottom: 10px;">
+    </a>
     <h1>Precicom 3D</h1>
-    <p class="subtitle">Innovate. Create. Empower.</p>
+    <p>Your Trusted 3D Printing Partner</p>
 </header>
 
-<section class="content-box">
+
+<section class="intro">
     <h2>About Us</h2>
-    <p>Precicom 3D, based in Chennai, is your partner in cutting-edge 3D printing solutions. With expertise in FDM, SLA, and SLS technologies, we deliver high-quality prototypes and functional parts for diverse industries, from automotive to healthcare. With our precision engineering and customer-centric approach, we transform your ideas into reality with unmatched efficiency and reliability.</p>
-</section>
-
-<hr>
-
-<section class="content-box">
-    <h2>Quality Aspects</h2>
-    <p>At Precicom 3D, quality drives everything we do. From material selection to meticulous inspections, we adhere to global standards for dimensional accuracy and durability. Our team ensures each product exceeds expectations in both functionality and aesthetics.</p>
-</section>
-
-<hr>
-
-<section class="content-box">
-    <h2>Reliability Aspects</h2>
-    <p>Reliability is at the heart of our service. We leverage cutting-edge technology and a highly skilled team to ensure consistent, repeatable results. Our commitment to on-time delivery and flawless execution makes us a trusted name in 3D printing.</p>
+    <p>Precicom 3D is a leading provider of 3D printing services based in Chennai, specializing in FDM, SLA, and SLS technologies. We offer high-quality, cost-effective solutions for prototypes, functional parts, and end-use components. Whether you need rapid prototyping or custom solutions, we are here to help bring your ideas to life.</p>
 </section>
 
 <section>
     <h2>Our Services</h2>
+
     <div class="service">
         <div class="service-details">
-            <h3>FDM Printing</h3>
-            <p>FDM (Fused Deposition Modeling) offers affordable and versatile 3D printing, ideal for rapid prototyping and functional testing. Benefits include cost-efficiency, durability, and customizable designs.</p>
+            <h3>FDM Printing (Ender 3)</h3>
+            <p><strong>FDM (Fused Deposition Modeling)</strong> is one of the most widely used 3D printing technologies. FDM printers work by melting and extruding thermoplastic filaments, which are deposited layer by layer to form a solid object. This method is suitable for creating prototypes, models, and even functional parts. It's a cost-effective option that provides great versatility in terms of material options, including PLA, ABS, and more.</p>
+            <p><strong>Ideal for:</strong> Rapid prototyping, small to medium-sized parts, durable and functional prototypes.</p>
             <p class="pricing">Pricing: ₹15/cc (PLA), ₹25/cc (ABS)</p>
         </div>
         <img src="https://www.bhphotovideo.com/images/images750x750/creality_ender_3v2_ender_3_v2_fdm_3d_1705448.jpg" alt="FDM Printer">
@@ -176,7 +153,8 @@
     <div class="service">
         <div class="service-details">
             <h3>SLA Printing</h3>
-            <p>SLA (Stereolithography) achieves exceptional precision and smooth finishes, perfect for intricate designs. Its high accuracy and material versatility make it a favorite for detailed projects.</p>
+            <p><strong>SLA (Stereolithography)</strong> is a high-precision 3D printing technology that uses ultraviolet light to cure liquid resin into solid layers. SLA printing provides exceptional accuracy, fine detail, and smooth finishes, making it perfect for industries that demand high resolution. It's commonly used for jewelry, dental products, and intricate parts.</p>
+            <p><strong>Ideal for:</strong> High-detail parts, intricate models, dental and jewelry applications, prototypes with smooth finishes.</p>
             <p class="pricing">Pricing: ₹50/cc</p>
         </div>
         <img src="https://images.squarespace-cdn.com/content/v1/5b6e3beb85ede1a17e4a6830/1566499392899-64UXSZUPIVSBBIDE6EYS/form-2-printer-three-quarters-hart1.jpg" alt="SLA Printer">
@@ -185,23 +163,43 @@
     <div class="service">
         <div class="service-details">
             <h3>SLS Printing</h3>
-            <p>SLS (Selective Laser Sintering) creates high-performance parts with excellent strength. Its ability to handle complex geometries makes it ideal for industrial applications.</p>
+            <p><strong>SLS (Selective Laser Sintering)</strong> uses a laser to sinter powdered material (such as nylon or metals) into a solid structure. The laser melts the powder particles to form a solid part. SLS is particularly ideal for creating complex, high-strength parts and is commonly used for industrial and functional applications, producing durable components for end-use or prototyping.</p>
+            <p><strong>Ideal for:</strong> Complex geometries, durable end-use parts, industrial applications, functional prototypes.</p>
             <p class="pricing">Pricing: ₹65/cc</p>
         </div>
         <img src="https://3dprint.com/wp-content/uploads/2017/10/1463590945-HP-HPQ-Launches-Multi-Jet-Fusion-3D-Printers.jpg" alt="SLS Printer">
     </div>
 </section>
 
+<section class="vision">
+    <h2>Our Vision on Quality</h2>
+    <p>At Precicom 3D, quality is our cornerstone. Our vision is to push the boundaries of innovation and excellence by delivering 3D-printed components that meet the highest standards. We ensure precision, durability, and the finest finishes in every project we take on.</p>
+    <p>We are committed to providing our clients with the best-in-class service and results. Our advanced 3D printing technologies, attention to detail, and fast turnaround times ensure that every component meets the exact requirements and exceeds expectations.</p>
+    <p><strong>Why Quality Matters:</strong></p>
+    <ul>
+        <li><strong>Precision:</strong> We ensure the highest level of accuracy in every printed model, ensuring all specifications are met with great detail.</li>
+        <li><strong>Durability:</strong> Whether you are prototyping or manufacturing functional parts, our prints are designed to last and perform in real-world conditions.</li>
+        <li><strong>Consistency:</strong> With our state-of-the-art machines and quality materials, we guarantee consistent output for every project.</li>
+        <li><strong>Customer Satisfaction:</strong> Your satisfaction is our priority. We work closely with you to meet your needs and deliver top-notch results every time.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:precicom3d@gmail.com">precicom3d@gmail.com</a></p>
+    <p>Phone: +91 8190911366</p>
+    <p>Location: <a href="https://www.google.com/maps?q=Chennai, India" target="_blank">Chennai, India</a></p>
+    <p><strong>Follow Us:</strong> <a href="https://www.instagram.com/precicom3d/" target="_blank">Instagram</a></p>
+</section>
+
 <section class="contact-info">
-    <p>Contact us: <a href="mailto:precicom3d@gmail.com">precicom3d@gmail.com</a></p>
+    <p><strong>Precicom 3D</strong></p>
+    <p>Your trusted partner for 3D printing solutions</p>
+    <p>Contact us for all your 3D printing needs.</p>
 </section>
 
 <section class="tech-quote">
-    <p>"3D printing is the future of manufacturing, unlocking new possibilities in design, production, and sustainability."</p>
-</section>
-
-<section class="slogan">
-    <p>Transforming Ideas into Reality with Precision and Innovation</p>
+    <p>"The best way to predict the future is to create it." – Abraham Lincoln</p>
 </section>
 
 </body>
