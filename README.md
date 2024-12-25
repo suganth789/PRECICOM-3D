@@ -125,7 +125,7 @@
 
 <header>
     <a href="https://www.precicom3d.com" target="_blank">
-        <img src="https://drive.google.com/file/d/1_aHMSvij5x3OoLYYc20efihJgHdWhBMi/view" alt="Precicom 3D Logo" style="max-width: 150px; margin-bottom: 10px;">
+        <img src="https://www.dropbox.com/scl/fi/1eg6oebm06zfxnlky0llr/WhatsApp-Image-2024-11-28-at-15.16.15-1-1.jpg?rlkey=gkez0cyb0lo2lmkgldnfva026&st=djf1y5m0&dl=0" alt="Precicom 3D Logo" style="max-width: 150px; margin-bottom: 10px;">
     </a>
     <h1>Precicom 3D</h1>
     <p>Your Trusted 3D Printing Partner</p>
