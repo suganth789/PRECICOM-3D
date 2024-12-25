@@ -125,7 +125,7 @@
 
 <header>
     <a href="https://www.precicom3d.com" target="_blank">
-        <img src="https://previews.dropbox.com/p/thumb/ACdpAD1QSM0H2hzPlq0GzqoJR42kdEDKPZEsZQ93aFNMcheoy8va6XvLcAyACma_Ip_vNCkXBjCmvHYTKUlAwIDucOW-iv2xGWWalt9KdnEB8ujLyLOk_6bzRzQ1fb8tm2l9pMkYb4IJTA7EPDZwswk1RO4fq7AhkruK8sQT2eTN0Pg9Gbmr1YrVaqQE7p9yPmtdwISFDD8YQxQpCjFEk7lyDtbv6_F3TsWNfoX8a2XmOfcNA3ZJWD-omJmY9H-P84Um0iWkuZHZb9KamcUElEDekNV5bMkLXM8wKmeK5qhRUxiZ68Ws-lDZjpKjG1WHzga9FNY4sUpupulmZOlzPSNH/p.jpeg?is_prewarmed=true" alt="Precicom 3D Logo" style="max-width: 150px; margin-bottom: 10px;">
+        <img src="https://i.postimg.cc/WbkcWZVs/Whats-App-Image-2024-11-28-at-15-16-15-1-1.jpg" alt="Precicom 3D Logo" style="max-width: 150px; margin-bottom: 10px;">
     </a>
     <h1>Precicom 3D</h1>
     <p>Your Trusted 3D Printing Partner</p>
